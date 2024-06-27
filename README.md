@@ -7,9 +7,9 @@ Let's start the Todo first:
 ```bash
 docker-compose up --build
 ```
-frontend http://localhost:3000.
+frontend http://localhost:3001.
 
-backend http://localhost:3001.
+backend http://localhost:3000.
 
 ## Creating a New Rails Application with Docker without any ruby on machine
 
