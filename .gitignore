@@ -1,0 +1,72 @@
+# Backend specific ignores
+# Ignore bundler config.
+/backend/.bundle
+
+# Ignore all environment files (except templates).
+/backend/.env*
+!/backend/.env*.erb
+
+# Ignore logfiles and tempfiles in the backend directory.
+/backend/log/*
+/backend/tmp/*
+!/backend/log/.keep
+!/backend/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/backend/tmp/pids/*
+!/backend/tmp/pids/
+!/backend/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases).
+/backend/storage/*
+!/backend/storage/.keep
+/backend/tmp/storage/*
+!/backend/tmp/storage/
+!/backend/tmp/storage/.keep
+
+# Ignore public assets compiled by backend.
+/backend/public/assets
+
+# Ignore master key for decrypting credentials and more.
+/backend/config/master.key
+
+
+# Frontend specific ignores
+# Dependency directories
+/frontend/node_modules/
+/frontend/dist/
+
+# Environment files
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Build files
+/frontend/build/
+
+# Cache and logs
+/frontend/.cache/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Editor directories and files
+/frontend/.vscode/
+/frontend/.idea/
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.swp
+/frontend/.DS_Store
+
+.DS_Store
+
+# Miscellaneous
+/frontend/*.log
+/frontend/*.bak
+/frontend/*.tmp
+/frontend/*.zip
+/frontend/*.rar
+/frontend/*.gz
